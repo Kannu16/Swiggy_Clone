@@ -1,0 +1,65 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/pneknawbadtvceqzwiep",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/zpkkdkmvlj5cuvqbc50t",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/lzkjv3sxwwjkzg0vxpvt",
+        "link": "#"
+      },
+      {
+        "id": 4,
+        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/tgnvusbs3fnzz7xupeno",
+        "link": "#"
+      },
+      {
+        "id": 5,
+        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/pneknawbadtvceqzwiep",
+        "link": "#"
+      },
+      {
+        "id": 6,
+        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/zpkkdkmvlj5cuvqbc50t",
+        "link": "#"
+      },
+      {
+        "id": 7,
+        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/lzkjv3sxwwjkzg0vxpvt",
+        "link": "#"
+      },
+      {
+        "id": 8,
+        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/tgnvusbs3fnzz7xupeno",
+        "link": "#"
+      },
+      {
+        "id": 9,
+        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/pneknawbadtvceqzwiep",
+        "link": "#"
+      },
+      {
+        "id": 10,
+        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/zpkkdkmvlj5cuvqbc50t",
+        "link": "#"
+      },
+      {
+        "id": 11,
+        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/lzkjv3sxwwjkzg0vxpvt",
+        "link": "#"
+      },
+      {
+        "id": 12,
+        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/tgnvusbs3fnzz7xupeno",
+        "link": "#"
+      }
+    ]
+  }
+  

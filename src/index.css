@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.search , .offers, .help, .sign-in, .cart:hover{
+  color: "#ffb935";
+}
+
+.product-list{
+  background-color: #171a29;
+}
+
+.restro:hover{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.restronavbar{
+  border-bottom: 0.2px solid #282c3f;
+  padding: 20px;
+}
+
+.restro{
+  box-shadow: none;
+  border: none;
+}
+
+.rating, .time, .money{
+  font-size: 13px;
+}
+
+.rating{
+  width: 30px;
+}
+
+.restro-info, .restromenulist{
+  border-bottom: 1px solid #282c3f;
+}
+
+.restro-info-left p{
+  font-size: 1.43rem;
+  font-weight: 600;
+  color: #282c3f;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.restro-info-left span{
+  font-size: .93rem;
+  color: #7e808c;
+  height: calc(0.93rem + 2px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+
+.restro-info-right p{
+  color: #3d9b6d;
+    border-bottom: 1px solid #e9e9eb;
+    font-weight: 700;
+    display: block;
+}
+
+.restro-info-right span{
+  font-size: 11px;
+  color: #8b8d97;
+  font-family: ProximaNovaCondensedRegular,arial,Helvetica Neue,sans-serif;
+  font-weight: 600;
+}
+
+.restromenulist-left h3{
+  margin-right: 4px;
+  font-size: 1.22rem;
+  font-weight: 600;
+  color: #3e4152;
+  word-break: break-word;
+}
+
+.restromenulist-right button{
+  color: #60b246;
+  cursor: pointer;
+  width: 50%;
+  text-transform: uppercase;
+}
+
+.restromenulist-right img{
+  border-radius: 7px;
+}
+
+.account, .address, .payment, .my-navbar, .cart-right{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.account h3{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #282c3f;
+}
+
+.account p{
+  color: #7e808c;
+  font-weight: 400;
+  font-size: 16px;
+}
+.login-button:hover{
+  background-color: #fff;
+  color: #60b246;
+}
+.sign-up-button{
+  background-color: #60b246;
+  color: #fff;
+}
+
+.sign-up-button:hover{
+  background-color: #60b246;
+}
+
+.menu-total-price{
+  border-top: 1px dotted #282c3f;
+}
+
+.product-carousel {
+  position: relative;
+  overflow: hidden;
+  padding: 26px;
+}
+
+.product-container {
+  padding: 0 10px;
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.pre-btn,
+.next-btn {
+  border: none;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.next-btn {
+  right: 13px;
+}
+
+.next-btn p,
+.pre-btn p {
+  font-size: 50px;
+  background-color: rgba(255, 255, 255, 0.436);
+  box-shadow: 0px 0px 10px 1px black;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.carousalImg-1{
+  transition: 0.5s all;
+}
+
+.carousalImg-1:hover{
+  transform: scale(1.1);
+}
+
+.next-btn, p:hover{
+  transition: 0.5s all;
+  transform: scale(1.1);
+}
