@@ -3,10 +3,12 @@ import { imgUrl } from "../Utils/Links";
 import { Link } from "react-router-dom";
 
 const RestroList = (props) => {
+  console.log(props)
 
 const [avgrating, setAvgRating] = useState("")
 
-const { name, cloudinaryImageId, cuisines,costForTwoString, slaString, avgRating, id } = props?.restrodata?.data
+const { name, cloudinaryImageId, cuisines,costForTwo, totalRatingsString, avgRating, id } = props?.restrodata?.info
+console.log(name)
 
  useEffect(()=>{
     if(avgRating > 3.9){
@@ -34,8 +36,8 @@ const { name, cloudinaryImageId, cuisines,costForTwoString, slaString, avgRating
            <div>
            <p className="card-text mt-4 d-flex justify-content-between">
               <span className="rating text-center" style={{backgroundColor: avgrating}}> <div className="d-flex"></div> {avgRating } </span>
-              <span className="time"> {slaString} </span>
-              <span className="money" > {costForTwoString} </span>
+              <span className="time"> {totalRatingsString} </span>
+              <span className="money" > {costForTwo} </span>
             </p>
            </div>
           </div>

@@ -15,8 +15,8 @@ const MainBody = () => {
        //Filtering RestroData usiging delivery time
        const sortedRestro = () => {
         const sorted = [...restrolist].sort((a, b) => {
-          const nameA = a.data.deliveryTime      ;
-          const nameB = b.data.deliveryTime;
+          const nameA = a.info.sla.deliveryTime      ;
+          const nameB = b.info.sla.deliveryTime;
           return nameA - nameB;
         });
         setRestrolist(sorted)
@@ -25,8 +25,8 @@ const MainBody = () => {
     //Filtering RestroData usiging delivery time
      const sortedRestroByRatineg = () => {
       const sortedRating = [...restrolist].sort((a, b) => {
-        const nameA = Number(a.data.avgRating);
-        const nameB = Number(b.data.avgRating);
+        const nameA = Number(a.info.avgRating);
+        const nameB = Number(b.info.avgRating);
         return nameA - nameB;
       });
       setRestrolist(sortedRating)
@@ -35,8 +35,8 @@ const MainBody = () => {
         //Filtering RestroData usiging Price
         const sortedRestroByPrice = () => {
           const sortedPrice = [...restrolist].sort((a, b) => {
-            const nameA = a.data.costForTwo;
-            const nameB = b.data.costForTwo;
+            const nameA = a.info.costForTwo;
+            const nameB = b.info.costForTwo;
             return nameA - nameB;
           });
           setRestrolist(sortedPrice)
@@ -45,8 +45,8 @@ const MainBody = () => {
          //Filtering RestroData usiging Price
          const sortedRestroByPriceHigh = () => {
           const sortedPriceHigh = [...restrolist].sort((a, b) => {
-            const nameA = a.data.costForTwo;
-            const nameB = b.data.costForTwo;
+            const nameA = a.info.costForTwo;
+            const nameB = b.info.costForTwo;
             return nameA - nameB;
           });
           setRestrolist(sortedPriceHigh.reverse())
